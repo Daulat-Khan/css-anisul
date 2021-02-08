@@ -1,0 +1,18 @@
+H1{
+    color:gray;
+    background-image:linear-gradient(to right, red,blue,pink,indigo);
+    font-size:20px;
+
+}
+H2{
+    color:gray;
+    background-image:linear-gradient(to right, orange,rgb(0, 255, 21),pink,indigo);
+    font-size:20px;
+    
+}
+p{
+    color:gray;
+    background-image:linear-gradient(to right, rgb(136, 255, 0),rgb(0, 255, 242),rgb(225, 192, 255),indigo);
+    font-size:20px;
+    
+}

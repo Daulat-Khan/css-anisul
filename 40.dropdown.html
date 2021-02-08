@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: turquoise;
+            padding:5px;
+            text-align: center;
+        }
+        .navbar a{
+            text-decoration: none;
+            padding:5px;
+            font-size: 1.2rem;
+            color:white;
+        }
+        .container{
+            display: inline;
+            position:relative;
+        }
+        .content{
+            position: absolute;
+            top:30px;
+            right:0px;
+            background-color: teal;
+            text-align:left;
+            min-width: 100px;
+            display:none;
+        }
+        .content a{
+            display: block;
+        }
+       
+        .container:hover  .content{
+            display:block;
+        }
+        .content a:hover{
+            background-color: yellowgreen;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="">HOME</a>
+        <a href="">Tutorial</a>
+        <div class="container">
+            <a href="">Contact</a>
+        <div class="content">
+            <a href="">Facebook</a>
+        <a href="">Email</a>
+        </div>
+        </div>
+        <a href="">About me</a>
+    </div>
+</body>
+</html>

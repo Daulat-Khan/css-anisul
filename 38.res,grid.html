@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: turquoise;
+            text-align: center;
+            padding: 5px;
+            font-size: 1.5rem;
+        }
+        .row{
+
+        }
+        .nav-menu{
+            background-color: tomato;
+            padding: 5px;
+            
+        }
+        .nav-menu a{
+            text-decoration: none;
+            padding: 5px;
+            color: yellowgreen;
+            display: block;
+        }
+        .main{
+            padding: 5px;
+            background-color:chartreuse;
+        }
+        .aside{
+            padding: 5px;
+            background-color:rgb(17, 0, 255);
+            text-align: center;
+        }
+        .fot{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+       
+
+
+  [class*="col-"] {
+  float:left;
+  padding: 10px;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display:table;
+}
+@media only screen and (max-width: 600px) {
+
+    [class*="col-"] {
+  width: 100%;
+}
+.nav-menu a{
+    text-align: center;
+    background-color: cyan;
+    margin: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.nav-menu a:hover{
+    background-color: chartreuse;
+}
+
+
+}
+@media only screen and (min-width: 600px) {
+ /* For tablet: */
+ .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3{width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+@media only screen and (min-width: 768px) {
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DAULAT KHAN</h1>
+    </div>
+    <div class="row">
+        <div class="nav-menu col-s-3 col-2">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+        </div>
+        <div class="main col-s-9 col-7">
+            <h1>I am Web designer</h1>
+            <p>Dolor lorem labore amet eos dolor. Et voluptua sanctus sit rebum consetetur tempor. Accusam sit aliquyam dolores et et ipsum no lorem, lorem ipsum duo ipsum lorem. Sed est takimata diam est ipsum stet accusam sea lorem. Est sed gubergren eos voluptua duo diam et. Sea diam sed ipsum lorem erat no dolore. Erat diam ut sit eirmod clita takimata sea ipsum, est et consetetur diam ut sed erat gubergren. Ipsum amet sit et vero sadipscing justo gubergren. Sanctus stet gubergren clita clita sed stet sit et, est lorem stet dolores et vero, ipsum kasd consetetur lorem et. Sanctus et amet erat voluptua stet eirmod ipsum lorem dolor. Sadipscing vero ipsum magna vero invidunt, elitr accusam sadipscing magna dolor erat elitr et. Rebum et eos kasd amet. Vero diam stet et rebum dolor rebum est. No elitr duo sadipscing clita sea diam at amet, sanctus sea ipsum dolor ea sanctus. Est consetetur sea ipsum et diam et labore rebum, diam ipsum justo invidunt dolore duo vero. Dolor clita et tempor nonumy, duo takimata sed dolore at tempor rebum rebum. Ut sea magna sanctus no accusam consetetur labore, ipsum lorem lorem est et ut amet at at tempor. Lorem sit rebum.</p></div>
+            <div class="aside col-s-12 col-3">
+                <h1>what i love</h1>
+                <p>Accusam eos lorem stet justo et diam kasd voluptua, et sanctus dolor et ut vero voluptua sea. Sed dolor ut.</p>
+                <h2> what i do</h2>
+                <p>Amet clita ea aliquyam ea et sit voluptua magna ea rebum. Justo erat dolores clita takimata dolore magna diam dolor.</p>
+                <h1>what i see</h1>
+                <p>Duo ut consetetur amet ipsum amet ipsum ea tempor. Ipsum invidunt eos vero lorem. Ea nonumy ipsum dolore ipsum, eirmod.</p>
+            </div>
+            
+        </div>
+
+    </div>
+    <footer class="fot">
+        <p>&copy;Study With Daulat<h1> 2020 developed by Daulat Khan</h1></p>
+    </footer>
+</body>
+</html>

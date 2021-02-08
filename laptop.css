@@ -1,0 +1,10 @@
+body{
+    background-color: lawngreen;
+}
+h1{
+    text-shadow: 5px 5px 5px red;
+}
+h1:hover{
+    text-shadow:5px 5px 5px yellow ;
+    background-color: tomato;
+}

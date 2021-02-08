@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin:0 auto;
+    max-width:350px;
+    text-align:center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 indigo;
+    transition:0.3s;
+    font-size: 0px;
+}
+.card:hover{
+  
+    box-shadow:0 16px 32px 0 lawngreen;
+}
+.cacl-head #search{
+    padding:10px;
+    text-align:right;
+    letter-spacing: 1rem;
+    width:320px;
+	height:100px;
+	font-size:32px;
+	font-weight:bold;
+
+}
+.btn{
+    width:87px;
+	height:70px;
+	font-weight:bold;
+	font-size:16px;
+	background-color:black;
+    color:white;
+   border-radius:50% ;
+}
+.btn-style{
+	background-color:violet;
+}
+.btn:hover{
+    background-color:pink;
+}
+.btn-style:hover{
+	background-color:yellow;
+}

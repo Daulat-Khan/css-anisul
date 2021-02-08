@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: mediumspringgreen;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+    background-color: turquoise;
+    margin:0 auto;
+    max-width:1000px;
+    padding:20px;
+}
+.image{
+    height:120px;
+    width:100px;
+    border:3px blue solid;
+    border-radius: 50%;
+    float:left;
+}
+h1,h2,h3,h4,h5,h6{
+    color:orangered;
+}
+.header-bio{
+    float:left;
+}
+.header-contact{
+    float:right;
+}
+.header-contact a{
+    text-decoration:none;
+    color:hotpink;
+    font-size:20px;
+}
+.header-contact a:hover{
+    text-decoration:underline;
+    color:brown;
+    text-shadow: 5px 5px 5px goldenrod;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    margin:0 auto;
+    width:100%;
+    margin-top:10px;
+}
+/*------------------
+personal section start*/
+.content{
+    margin-top:10px;
+}
+.left-div{
+    color:violet;
+    float:left;
+    width:30%;
+    font-size:30px;
+}
+.right-div{
+    color:rgb(238, 130, 130);
+    float:right;
+    width:70%;
+
+}
+.hr{
+    border:5px indianred dotted;
+}
+.edu-template-left{
+    float:left;
+    width:45%;
+}
+.edu-template-Right{
+    float:right;
+    width:45%;
+}
+.bottm-cotainer{
+    background-color: lawngreen;
+    color:white;
+    text-align:center;
+    margin-top: 10px;
+    height:80px;
+    
+}
+.bottm-cotainer a{
+   margin:10px;
+    text-decoration:none;
+   
+}
+.bottm-cotainer a:hover{
+   
+   color:violet;
+   text-decoration: underline;
+}
+span{
+    color:hotpink;
+    font-size: 30px;
+    font-weight: bold;
+}

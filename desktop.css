@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nav-logo{
+    float:left;
+}
+h1{
+    float:right;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin:20px 0 ;
+    background-color: transparent;
+}
+/*nav design end*/
+.profile .top{
+   
+    position:absolute;
+    right:100px;
+    top:120px;
+    transition: width 2s transform 2s;
+}
+.profile .top:hover{
+   
+    
+    transform: rotate(360deg);
+}
+.profile .bottom{
+   width:120px;
+    position:absolute;
+    left:140px;
+    bottom:20px;
+    transition: width 2s transform 2s;
+}
+.profile .bottom:hover{
+   
+    
+    width:120px;
+
+}
+.profile-desc p{
+    color:gray;
+    margin:0 auto 0 auto;
+   width:50%;
+  margin-bottom:10px}
+
+  .profile::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
+/*profile end*/
+
+/*about starts*/
+.image{
+    margin-top:100px;
+}
+.image img{
+height:270px;
+width:250px;
+}
+.about-desc p{
+    text-align: center;
+}
+.button:hover{
+    background-color: tomato;
+    box-shadow:5px 5px 5px cyan;
+}
+.about::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+/*profession starts*/
+.profession{
+    padding:1% 5%;
+}
+.profession::after{
+    content: '';
+    display: table;
+    clear:both;
+
+}
+/*profession end*/
+
+
+/*achievement starts*/
+.achievement{
+    padding:50px;
+}
+
+
+.achievement::after{
+    content: '';
+    display: table;
+    clear:both;
+
+}
+/*achievement end*/
+
+/*------contact starts*/
+
+.contact button{
+    width:150px;
+}
+.contact-links{
+    position: relative;
+}
+.media-links{
+    margin-top:200px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+}
+/*------footer starts*/
+.footer-menu {
+    margin-top:12px;
+}
+.footer-menu a{
+    display:inline;
+    padding: 10px;
+}
+
+
+
+
+
+
+
